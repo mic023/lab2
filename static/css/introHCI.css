@@ -6,13 +6,13 @@
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+	color: #F5E1EF;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 1px dotted black;
      padding: 20px;
 }
 
@@ -31,4 +31,12 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project{
+     margin-left: 20px;
+     background-color: #deebf7;
+     padding: 20px;
+     width: 525px;
+     border: 2px dotted black;
 }
